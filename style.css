@@ -91,3 +91,68 @@ hr{
     padding-bottom: 10px;
 }
 /* part-4 */
+/* part-4    
+
+*/
+.products-heading{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.products{
+    margin: 100px;
+    padding: 20px;
+}
+
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:10px ;
+   margin-top: 100px;
+    padding: 5px;
+
+}
+
+.single-products{
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    margin:20px;
+    padding: 10px;
+    width:300px;
+    height: 400px;
+
+}
+
+
+
+.products-img img{
+    width: 300px;
+    height: 200px;
+}
+
+/* icon */
+.fa-star{
+    font-size:13px;
+}
+.fa-star.filled{
+    color: #FFC014
+    
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    ;
+}
+/* icon */
+
+.link-button-two{
+    text-decoration: none;
+    color: #E02C6D;
+    position: absolute;
+    right:135px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:20px;
+    padding:0px;
+   
+}
