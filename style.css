@@ -156,3 +156,72 @@ hr{
     padding:0px;
    
 }
+.description{
+    font-size:15px;
+    font-weight: 800;
+    color: lightslategray;
+}
+/* part-5 */
+.second-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 100px;
+    padding: 10px;
+   }
+   .last-width img{
+       width: 100%;
+       
+   }
+   .last-width-img{
+    
+   margin-left:90px;
+        padding-left:10px;
+   }
+   .last-width-description{
+       margin-left: 10px;
+       margin-right:20px;
+   }
+       
+   
+   
+   
+   .link-button-three{
+       text-decoration: none;
+       background-color: #E02C6D;
+       padding:10px 25px;
+       font-size: 15px;
+       color:whitesmoke;
+       font-weight: 700;
+       margin: 0px;
+   }
+/* last part  */
+
+.last-section{
+    background-color:rgb(0, 0, 8) ;
+    margin: 0;
+    padding: 0;
+  
+}
+footer{
+    text-align: center;
+    
+}
+.footer-head{
+ padding-top: 30px;
+ font-size: 20px;
+ font-weight: 800;
+ color: white;
+}
+.foot-para{
+color: white;
+font-weight: 200;
+}
+.last-icons{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    justify-content: center;
+    padding-bottom: 50px;
+    color: white;
+ 
+}
